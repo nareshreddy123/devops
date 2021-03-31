@@ -1,5 +1,9 @@
 catalouge:
-	@echo installing catalouge
+	@sh.compnents/catalouge.sh.
 
 cart:
-	@echo intsalling cart
+	@sh.components/cart.sh
+
+
+
+

@@ -1,6 +1,5 @@
 catalouge:
-    @echo installing catalouge
+	@echo installing catalouge
 
 cart:
-    @echo intsalling cart
-
+	@echo intsalling cart

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-  echo installing cart
+echo installing cart

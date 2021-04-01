@@ -1,4 +1,0 @@
-cart:
-	@cart
-catalouge:
-	@catalouge

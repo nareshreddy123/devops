@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f74bc85c-04ee-4848-b2f4-31ea6bfdfbe3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qXVDPw98IblS6zmyP9XkQxkZYl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f74bc85c-04ee-4848-b2f4-31ea6bfdfbe3" name="Default Changelist" comment="" />
+      <created>1617225815415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617225815415</updated>
+    </task>
+    <task id="LOCAL-00001" summary="this is Makefile">
+      <created>1617226755063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617226755063</updated>
+    </task>
+    <task id="LOCAL-00002" summary="this is Makefile">
+      <created>1617227304704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617227304704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="this is Makefile">
+      <created>1617227712006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617227712006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="this is Makefile">
+      <created>1617228547310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617228547310</updated>
+    </task>
+    <task id="LOCAL-00005" summary="this is my Makefile">
+      <created>1617314241943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617314241943</updated>
+    </task>
+    <task id="LOCAL-00006" summary="this is my Makefile">
+      <created>1617314921138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617314921138</updated>
+    </task>
+    <task id="LOCAL-00007" summary="this is my Makefile2">
+      <created>1617315713593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617315713593</updated>
+    </task>
+    <task id="LOCAL-00008" summary="this is my Makefile2">
+      <created>1617317963097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617317963097</updated>
+    </task>
+    <task id="LOCAL-00009" summary="this is my Makefile2">
+      <created>1617318051155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617318051155</updated>
+    </task>
+    <task id="LOCAL-00010" summary="this is my Makefile">
+      <created>1617318153640</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617318153640</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="this is Makefile" />
+    <MESSAGE value="this is my Makefile2" />
+    <MESSAGE value="this is my Makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my Makefile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617228345600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617228345600" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1617314368610">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1617314368610" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1617314368623">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1617314368623" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1617318158231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617318158231" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1617314952006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1617314952006" />
+  </component>
+</project>

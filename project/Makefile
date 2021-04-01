@@ -1,5 +1,5 @@
 cart:
-	@cart
+	sh components/cart.sh
 
 catalog:
-	@catalog
+	@sh components/cataloge.sh

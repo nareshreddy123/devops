@@ -1,6 +1,9 @@
 catalouge:
-	@sh components/catalogue.sh
+	@sh.compnents/catalouge.sh.
 
 cart:
-	@sh components/cart.sh
+	@sh.components/cart.sh
+
+
+
 

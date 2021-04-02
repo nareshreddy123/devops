@@ -1,7 +1,8 @@
 cart:
-	@echo intsall cataloge
-catalog:
 	@echo intsall cart
+catalog:
+	@echo intsall cataloge
+
 
 
 

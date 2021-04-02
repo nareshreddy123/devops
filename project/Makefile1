@@ -1,5 +1,0 @@
-cart:
-	@cart
-
-catalog:
-	@catalog

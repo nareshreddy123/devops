@@ -4,13 +4,13 @@ help:        ## Show this help.
 common:
 	@sh components/commmon.sh
 
-cart:  		## intsalling cart
+cart:  	commmon	## intsalling cart
 	@sh components/cart.sh
 
-catalog:  	## intsalling cataloge
+catalog:  commmon	## intsalling cataloge
 	@sh components/cataloge.sh
 
-frontend:	## intsalling frontend
+frontend:common## intsalling frontend
 	@sh components/frontend.sh
 
 

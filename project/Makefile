@@ -1,7 +1,7 @@
 cart:
-	@echo intsall cart
+	@sh components/cart.sh
 catalog:
-	@echo intsall cataloge
+	@sh components/cataloge.sh
 
 
 

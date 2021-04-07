@@ -1,0 +1,6 @@
+-name:This is to show the playbook
+ hosts:all
+`tasks:
+   -name: print hello world
+   `debug:
+      msg:hello world

@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f74bc85c-04ee-4848-b2f4-31ea6bfdfbe3" name="Default Changelist" comment="" />
+    <list default="true" id="f74bc85c-04ee-4848-b2f4-31ea6bfdfbe3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/components/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/project/components/frontend.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +32,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qXVDPw98IblS6zmyP9XkQxkZYl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="frontend.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/project/components/frontend.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/project/components" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.frontend.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,8 +137,130 @@
       <option name="project" value="LOCAL" />
       <updated>1617318153640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="this is my Makefile">
+      <created>1617319825371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617319825371</updated>
+    </task>
+    <task id="LOCAL-00012" summary="this is my Makefile">
+      <created>1617320213064</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617320213064</updated>
+    </task>
+    <task id="LOCAL-00013" summary="this is my Makefile">
+      <created>1617321052289</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321052289</updated>
+    </task>
+    <task id="LOCAL-00014" summary="this is my Makefile">
+      <created>1617321251153</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321251153</updated>
+    </task>
+    <task id="LOCAL-00015" summary="this is my Makefile">
+      <created>1617321400195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321400195</updated>
+    </task>
+    <task id="LOCAL-00016" summary="this is my Makefile">
+      <created>1617321843642</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321843642</updated>
+    </task>
+    <task id="LOCAL-00017" summary="this is my Makefile">
+      <created>1617321895971</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321895971</updated>
+    </task>
+    <task id="LOCAL-00018" summary="this is my Makefile">
+      <created>1617321943618</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617321943618</updated>
+    </task>
+    <task id="LOCAL-00019" summary="this is my Makefile">
+      <created>1617322156795</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617322156795</updated>
+    </task>
+    <task id="LOCAL-00020" summary="this is my Makefile">
+      <created>1617331900656</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617331900656</updated>
+    </task>
+    <task id="LOCAL-00021" summary="this is my Makefile">
+      <created>1617332507884</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617332507884</updated>
+    </task>
+    <task id="LOCAL-00022" summary="this is my Makefile">
+      <created>1617335231923</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617335231923</updated>
+    </task>
+    <task id="LOCAL-00023" summary="this is my Makefile">
+      <created>1617336020664</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617336020664</updated>
+    </task>
+    <task id="LOCAL-00024" summary="this is my Makefile">
+      <created>1617337188018</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617337188038</updated>
+    </task>
+    <task id="LOCAL-00025" summary="this is my Makefile">
+      <created>1617338249353</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617338249386</updated>
+    </task>
+    <task id="LOCAL-00026" summary="this is my Makefile">
+      <created>1617339703792</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617339703812</updated>
+    </task>
+    <task id="LOCAL-00027" summary="this is my ansible">
+      <created>1617831963566</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617831963567</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -134,13 +278,18 @@
     <MESSAGE value="this is Makefile" />
     <MESSAGE value="this is my Makefile2" />
     <MESSAGE value="this is my Makefile" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is my Makefile" />
+    <MESSAGE value="this is my ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is my ansible" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617228345600">
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617831144295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617228345600" />
+    <state x="442" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1617831144295" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1617322161350">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1617322161350" />
     <state x="129" y="55" key="MergeDialog" timestamp="1617314368610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,13 +298,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1617314368623" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1617318158231">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1617831976256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617318158231" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617831976256" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1617314952006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1617314952006" />
+    <state x="65" y="24" key="new project wizard" timestamp="1617423809150">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617423809150" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1617334121631">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617334121631" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617831412426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617831412426" />
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617423643671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1617423643671" />
   </component>
 </project>

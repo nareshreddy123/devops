@@ -1,16 +1,104 @@
-- name: Demo of varibles
+- name: Demo of vars on Play level
   hosts: all
   vars:
     URL_PLAY: play.example.com
   tasks:
-    - name: Print variables
+    - name: Print Variable Value
       debug:
-        msg: Hello{{URL_PLAY}}
+        msg: Hello {{ URL_PLAY }}
 
-    - name: print varibale again
+    - name: Print Variable again
       debug:
-        msg: Good{{URL_PLAY}}
+        msg: Bye {{ URL_PLAY }}
+
+## If you declare a variable in play level then you can access the value across the play tasks.
+
+- name: Demo on vars in Tasks level
+  hosts: all
+  tasks:
+    - name: Print task level variable
+      debug:
+        msg: Hello {{ URL_TASK1 }}
+      vars:
+        URL_TASK1: task1.example.com
+
+#    - name: Print task level variable
+#      debug:
+#        msg: Hello {{ URL_TASK1 }}
+
+## Tasks level variables are going have the scope to the only task on where it is declared.
+
+- name: Dmeo on same var from play and task
+  hosts: all
+  vars:
+    URL: play.example.com
+  tasks:
+    - name: Print URL
+      debug:
+        msg: Hello , {{ URL }}
+      vars:
+        URL: task.example.com
+    - name: Print URL
+      debug:
+        msg: Hello , {{ URL }}
+
+## Task variables have high precedence than play variables.
+
+- name: Demo on CLI vars
+  hosts: all
+  tasks:
+    - name: Print URL from CLI
+      debug:
+        msg: Hello, {{ URL_CLI }}
 
 
+- name: Demo on vars from inventory
+  hosts: all
+  tasks:
+    - name: Print URL from INV
+      debug:
+        msg: Hello, {{ URL_INV }}
 
+
+- name: Demo on vars from file
+  hosts: all
+  vars_files:
+    - sample-vars.yml
+  tasks:
+    - name: Print URL from FILE
+      debug:
+        msg: Hello, {{ URL_FILES }}
+
+
+- name: Print variable from fact
+  hosts: all
+  tasks:
+    - name: Print fact
+      debug:
+        msg: Fact = {{ ansible_memtotal_mb }}
+
+
+- name: Demo on Dynamic variables
+  hosts: all
+  tasks:
+    - name: Run uptime command
+      shell: uptime
+      register: OUT
+
+    - name: Run who am i command
+      shell: who am i
+      register: OUT_WHO
+
+    - name: Print OUT
+      debug:
+        msg: "{{OUT}}"
+    ## USE DOUBLE QUOTES WHEN YOU USE ONLY VARIABLE AS VALUE TO THE KEY
+
+    - name: Set a fact
+      set_fact:
+        UPTIME_OUTPUT: "{{ OUT.stdout }}"
+
+    - name: Print Uptime Output
+      debug:
+        msg: OUTPUT = {{ UPTIME_OUTPUT }}
 

@@ -10,3 +10,20 @@
     - name: print varibale again
       debug:
         msg: Good{{URL_PLAY}}
+
+
+#Task level variables
+
+- name: print task vars
+  hosts: all
+  tasks:
+    - name: print tasks
+      debug:
+        msg: Hello{{URL_TASK1}}
+      VARS:
+        URL_TASK1: TASK1.example.com
+
+      -name: print task variable
+       debug:
+         msg: hey{{URL_TASK1}}
+

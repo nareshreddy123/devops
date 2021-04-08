@@ -1,0 +1,7 @@
+- name: This is variables
+  hosts:
+  vars:
+    URL_PLAY= example.com.play
+  tasks:
+    - name: print varibales
+      msg: Hello {{URL_PLAY}}

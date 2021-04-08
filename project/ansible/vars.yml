@@ -1,12 +1,8 @@
-- name: Demo of vars on Play level
+- name: Demo of varibles
   hosts: all
   vars:
     URL_PLAY: play.example.com
   tasks:
-    - name: Print Variable Value
+    - name: Print variables
       debug:
-        msg: Hello {{ URL_PLAY }}
-
-    - name: Print Variable again
-      debug:
-        msg: Bye {{ URL_PLAY }}
+        msg: Hello{{URL_PLAY}}

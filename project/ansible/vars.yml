@@ -1,27 +1,31 @@
-- name: Demo of varibles
+- name: Demo of vars on Play level
   hosts: all
   vars:
     URL_PLAY: play.example.com
   tasks:
-    - name: Print variables
+    - name: Print Variable Value
       debug:
-        msg: Hello{{URL_PLAY}}
+        msg: Hello {{ URL_PLAY }}
 
-    - name: print varibale again
+    - name: Print Variable again
       debug:
-        msg: Good{{URL_PLAY}}
+        msg: Bye {{ URL_PLAY }}
 
+## If you declare a variable in play level then you can access the value across the play tasks.
 
-#Task level variables
-
-- name: Print task vars
+- name: Demo on vars in Tasks level
   hosts: all
   tasks:
-    - name: Print tasks
+    - name: Print task level variable
       debug:
-        msg: Hello{{URL_TASK1}}
-      VARS:
-        URL_TASK1: TASK1.example.com
+        msg: Hello {{ URL_TASK1 }}
+      vars:
+        URL_TASK1: task1.example.com
+
+#    - name: Print task level variable
+#      debug:
+#        msg: Hello {{ URL_TASK1 }}
+
 
 
 

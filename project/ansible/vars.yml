@@ -1,8 +1,12 @@
-- name: This is variables
-  hosts:
+- name: Demo of vars on Play level
+  hosts: all
   vars:
-    URL_PLAY= example.com.play
+    URL_PLAY: play.example.com
   tasks:
-    - name: print varibales
+    - name: Print Variable Value
       debug:
-      msg: Hello {{URL_PLAY}}
+        msg: Hello {{ URL_PLAY }}
+
+    - name: Print Variable again
+      debug:
+        msg: Bye {{ URL_PLAY }}

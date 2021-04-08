@@ -12,17 +12,5 @@
         msg: Good{{URL_PLAY}}
 
 
-#Task level variables
-
-- name: Print task vars
-  hosts: all
-  tasks:
-    - name: Print tasks
-      debug:
-        msg: Hello{{URL_TASK1}}
-
-      VARS:
-        URL_TASK1: task1.example.com
-
 
 

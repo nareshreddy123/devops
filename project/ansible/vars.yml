@@ -20,8 +20,9 @@
     - name: Print tasks
       debug:
         msg: Hello{{URL_TASK1}}
+
       VARS:
-        URL_TASK1: TASK1.example.com
+        URL_TASK1: task1.example.com
 
 
 

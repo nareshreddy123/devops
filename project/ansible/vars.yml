@@ -4,4 +4,5 @@
     URL_PLAY= example.com.play
   tasks:
     - name: print varibales
+      debug:
       msg: Hello {{URL_PLAY}}

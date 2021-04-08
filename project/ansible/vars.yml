@@ -6,3 +6,7 @@
     - name: Print variables
       debug:
         msg: Hello{{URL_PLAY}}
+
+    - name: print varibale again
+      debug:
+        msg: Good{{URL_PLAY}}

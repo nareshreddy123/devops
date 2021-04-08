@@ -23,7 +23,5 @@
       VARS:
         URL_TASK1: TASK1.example.com
 
-      -name: Print task variable
-       debug:
-         msg: Hey{{URL_TASK1}}
+
 
